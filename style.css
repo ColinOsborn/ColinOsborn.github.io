@@ -1,0 +1,92 @@
+body {
+    /*background-image: url("Images/texture.jpg");
+    background-repeat: repeat;*/
+    background-color: #FAFAFA;
+    color: black;
+}
+
+h1 {
+  color: black;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 65px;
+}
+.myMenu {
+	margin-left: 300px;
+  margin-right: 100px;
+  text-align: center;
+	padding:0;
+}
+
+.myMenu li {
+	list-style:none;
+	float:left;
+	font:12px Arial, Helvetica, sans-serif #111;
+}
+
+.myMenu li a:link, .myMenu li a:visited {
+	display:block;
+	text-decoration:none;
+	background-color:#09F;
+	padding: 0.5em 2em;
+	margin:0;
+	border-right: 1px solid #fff;
+	color:#111;
+}
+
+.myMenu li a:hover {
+	background-color:#0CF;
+}
+
+/*style the sub menu*/
+.myMenu li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+.myMenu li ul li {
+	display:inline;
+	float:none;
+}
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+	background-color:#09F;
+	width:auto;
+}
+
+.myMenu li ul li a:hover {
+	background-color:#0CF;
+}
+.container {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}
