@@ -12,6 +12,7 @@ $(document).ready(function(){
 		};
 
 /// Slider////
+
 var currentIndex = 0,
   items = $('.container div'),
   itemAmt = items.length;
