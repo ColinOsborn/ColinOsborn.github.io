@@ -1,3 +1,3 @@
-#Creating a personal blog/website to showcase some of the skills learned while attending Turing School of Software and Design.
+# Landing Page
 
-Of course this will become a work in progress and will hopefully evolve as I learn more and more. But have to have a starting point and a place to jump off from. 
+Building up something to upgrade the current github page.
